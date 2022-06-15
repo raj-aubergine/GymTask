@@ -28,18 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
     super.dispose();
   }
 
-  // var getex;
-  // @override
-  // initState() {
-  //   getex = DatabaseHelper.instance.getExercise();
-  //   super.initState();
-  // }
 
-  // void callsetstate() {
-  //   setState(() {
-  //     getex = DatabaseHelper.instance.getExercise();
-  //   });
-  // }
 
   @override
   Widget build(BuildContext context) {
@@ -80,35 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             onTap: () {
                               showModalBottomSheetForUpdateWidget(ex);
 
-                              // showDialog(
-                              //     context: context,
-                              //     builder: (context) => AlertDialog(
-                              //           title: Text(ex.name ?? ''),
-                              //           content: TextField(
-                              //             decoration:
-                              //                 InputDecoration(hintText: 'time'),
-                              //             controller: edittimeController,
-                              //           ),
-                              //           actions: [
-                              //             TextButton(
-                              //               child: Text('update'),
-                              //               onPressed: () async {
-                              //                 Navigator.pop(context);
-                              //                 setState(() {
-                              //                   DatabaseHelper.instance.update(
-                              //                       Exercise(
-                              //                           id: ex.id,
-                              //                           name: ex.name,
-                              //                           time: int.parse(
-                              //                               edittimeController
-                              //                                   .text)));
-                              //                 });
-
-                              //                 //callsetstate();
-                              //               },
-                              //             )
-                              //           ],
-                              //         ));
+                           
                             },
                             child: TimerCard(
                               exercise: ex,
