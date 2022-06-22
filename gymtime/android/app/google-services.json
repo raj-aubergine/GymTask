@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294173342077",
+    "project_id": "gymtime-899ee",
+    "storage_bucket": "gymtime-899ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294173342077:android:d3f0b82831b3fe73f23414",
+        "android_client_info": {
+          "package_name": "com.example.gymtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294173342077-jk41an7ai28l2en08vtjijj2geitr2sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUwAzUhk3D4rkuJ5vPg_coj0SITRqKbus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294173342077-jk41an7ai28l2en08vtjijj2geitr2sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
